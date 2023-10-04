@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.navlink {
+  @apply bg-gray-600 p-4 w-full h-max rounded-md hover:bg-gradient-to-r
+           hover:from-cyan-950 hover:to-gray-400 hover:shadow-xl hover:shadow-slate-950 duration-300 transition-all;
+}
+
+.navlinkphone {
+  @apply w-full cursor-pointer text-center font-mono font-bold text-white border-b-2 border-l-amber-900;
+}
